@@ -13,7 +13,7 @@ def code(p1: str) -> int:
             count = 0
             for num in bin:
                 final = final + str(num)
-                count = count+1
+                count = count+1 #keeps track of num of characters being converted
             final = int(final)
 
     print(count,".",final)  #this is the final output// should be a list of all the chars values as binary
