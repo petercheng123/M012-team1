@@ -1,6 +1,6 @@
 def code(p1: str) -> int:
     #actually does the convertion but gives binary in alist
-    dictionary = {"A": 1000000, "B": 1000001, "C": 1000010}  #char to bin
+    dictionary = {"a": 00000, "e": 00001, "i": 00010,"o": 00011, "u": 00100, "r": 00101, "s": 00110, "t": 00111, "n": 01000, "l": 01001, "T": 01010, ",": 01100, ".": 01101, "!": 01110, "?": 01111, " ": 01011}  #char to bin
     bin = []  #this is what will be returned//a list of the converted char into binary
     for char in p1:  #goes through every char in the string
         if char in dictionary: #checking to see if the char is actuallly given a val in the dictionary
